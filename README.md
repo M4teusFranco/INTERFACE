@@ -1,15 +1,18 @@
 # INTERFACE
 
-Tema: Biblioteca de Conversões
-Imagine que você está desenvolvendo um sistema para conversões de unidades, como temperatura, comprimento e massa. Sua tarefa é criar uma classe estática chamada ConversorUnidades que contenha métodos para realizar algumas conversões importantes.
+Tema: Sistema de Gestão de Funcionários
+
+Imagine que você está desenvolvendo um sistema de gestão para uma empresa. Esse sistema precisa lidar com diferentes tipos de funcionários, cada um com uma forma distinta de cálculo de bônus. Queremos garantir que todos os tipos de funcionários tenham uma forma de calcular seu bônus anual, mas o cálculo varia de acordo com a categoria do funcionário.
 
 Enunciado:
-Crie uma classe estática chamada ConversorUnidades que deve conter os seguintes métodos:
 
-celsiusParaFahrenheit(double celsius): converte uma temperatura em Celsius para Fahrenheit.
-quilometrosParaMilhas(double quilometros): converte uma distância em quilômetros para milhas.
-gramasParaLibras(double gramas): converte uma massa em gramas para libras.
-Após criar a classe, implemente uma classe principal (Main) que chame cada um dos métodos da classe ConversorUnidades e exiba o resultado no console.
+Crie uma interface chamada Funcionario que defina um método calcularBonus(). Em seguida, crie duas classes que implementem essa interface:
+
+FuncionarioAssalariado: o bônus é um valor fixo de R$ 5.000,00.
+
+FuncionarioHorista: o bônus é calculado como 10% do total anual recebido pelo funcionário.
+
+Após criar as classes, implemente uma classe principal (Main) que crie instâncias dos dois tipos de funcionários e invoque o método calcularBonus() para mostrar o valor do bônus de cada funcionário.
 
 ### 📋 Pré-requisitos
 
