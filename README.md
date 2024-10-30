@@ -14,6 +14,9 @@ FuncionarioHorista: o bônus é calculado como 10% do total anual recebido pelo 
 
 Após criar as classes, implemente uma classe principal (Main) que crie instâncias dos dois tipos de funcionários e invoque o método calcularBonus() para mostrar o valor do bônus de cada funcionário.
 
+![image](https://github.com/user-attachments/assets/7353ad71-4827-4a2b-b0ca-edbf664c14e4)
+
+
 ### 📋 Pré-requisitos
 
 - Eclipse IDE
