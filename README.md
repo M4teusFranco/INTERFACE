@@ -1,35 +1,65 @@
-# INTERFACE
+# Sistema de Gestão de Funcionários com Bônus
 
-Tema: Sistema de Gestão de Funcionários
+### 📋 Descrição do Projeto
 
-Imagine que você está desenvolvendo um sistema de gestão para uma empresa. Esse sistema precisa lidar com diferentes tipos de funcionários, cada um com uma forma distinta de cálculo de bônus. Queremos garantir que todos os tipos de funcionários tenham uma forma de calcular seu bônus anual, mas o cálculo varia de acordo com a categoria do funcionário.
+Este sistema Java demonstra a implementação de um modelo de funcionários com cálculo de bônus utilizando:
 
-Enunciado:
+- Classes abstratas
+- Interfaces
+- Herança
+- Polimorfismo
 
-Crie uma interface chamada Funcionario que defina um método calcularBonus(). Em seguida, crie duas classes que implementem essa interface:
-
-FuncionarioAssalariado: o bônus é um valor fixo de R$ 5.000,00.
-
-FuncionarioHorista: o bônus é calculado como 10% do total anual recebido pelo funcionário.
-
-Após criar as classes, implemente uma classe principal (Main) que crie instâncias dos dois tipos de funcionários e invoque o método calcularBonus() para mostrar o valor do bônus de cada funcionário.
-
-![image](https://github.com/user-attachments/assets/7353ad71-4827-4a2b-b0ca-edbf664c14e4)
-
+O projeto simula um sistema de folha de pagamento com diferentes tipos de funcionários e respectivos cálculos de bônus.
 
 ### 📋 Pré-requisitos
 
-- Eclipse IDE
+- Java JDK 8 ou superior
+- Eclipse IDE (ou outra IDE Java de sua preferência)
   
-### 🔧 Instalação
+### 🚀 Instalação e execução
 
-* Explicação de como deve ser utilizado o projeto
+1. Clone o repositório:
 
-## 🛠️ Construído com
+```
+git clone https://github.com/seu-usuario/INTERFACE
+```
 
-O código deve ser inicializado por uma IDE que aceite Java, como o Eclipse.
+2. Importe o projeto no Eclipse:
+- File → Import → Existing Projects into Workspace
+- Selecione a pasta do projeto clonado
 
-* IDE Eclipse
+3. Execute a classe Main localizada no pacote Main para ver a demonstração do sistema.
+
+### 🛠️ Funcionalidades Implementadas
+
+Cálculo automático de bônus:
+- Fixo para assalariados
+- Percentual (10%) para horistas
+
+Exibição detalhada dos dados do funcionário:
+- Nome
+- Salário base
+- Valor do bônus
+- Salário total
+
+### 📝 Exemplo de Saída
+
+Ao executar, o sistema mostrará:
+
+```
+------ Bônus ------
+- Assalariado - 
+Nome: Mateus
+Salário: 12000.0
+Bônus: 5000.0
+Salário Total: 17000.0
+
+- Horista - 
+Nome: João
+Salário: 5000.0
+Bônus: 500.0
+Salário Total: 5500.0
+```
 
 ## ✒️ Autores
 
